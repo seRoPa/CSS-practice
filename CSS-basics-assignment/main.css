@@ -1,6 +1,32 @@
+body {
+    font-family: sans-serif
+}
+
 h1 {
     font-family: sans-serif;
     color: darkblue;
+}
+
+ol {
+    font-family: Times, serif;
+}
+
+li {
+    font-family: inherit;
+}
+
+li + li {
+    background: black;
+    color: white;
+}
+
+ol li {
+    background: black;
+    color: white;
+}
+
+.green-code {
+    color: green;
 }
 
 code {
