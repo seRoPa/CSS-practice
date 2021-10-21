@@ -1,0 +1,20 @@
+/* Note that the assignment asks for different padding and margin for each side of the box div... */
+
+.my-box {
+    padding: 5px 10px 15px 20px;
+    margin: 5px 10px 15px 20px;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+}
+
+.my-box:first-of-type {
+    height: 300px;
+    width: 50%;
+    visibility: hidden;
+}
+
+.my-box:last-of-type:hover{
+    color: white;
+    background: cornflowerblue;
+}
