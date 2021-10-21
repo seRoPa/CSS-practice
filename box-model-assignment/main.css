@@ -1,5 +1,13 @@
 /* Note that the assignment asks for different padding and margin for each side of the box div... */
 
+html, body {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 .my-box {
     padding: 5px 10px 15px 20px;
     margin: 5px 10px 15px 20px;
