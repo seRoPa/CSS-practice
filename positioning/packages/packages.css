@@ -2,11 +2,20 @@ main {
     padding: 32px 0;
 }
 
+.background {
+    background: url("../images/plans-background.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
 .package a {
     display: block;
 }
 
 .package {
+    position: relative;
     background: #d5ffdc;
     width: 80%;
     margin: 32px 0;
@@ -55,6 +64,19 @@ main {
     padding: 8px 0 0 16px;
 }
 
+.package__badge {
+    color: white;
+    top: 0;
+    right: 0px;
+    padding: 10px;
+    background: #cf2e2e;
+    font-size: 12px;
+    position: absolute;
+    margin: 20px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
 .package__summary {
     color: #858585;
     margin: 16px 0 16px 16px;
@@ -88,6 +110,10 @@ main {
 
 #plus:hover .package__title {
     color: white;
+}
+
+#plus:hover .package__badge {
+    background: #19b84c;
 }
 
 #premium {
