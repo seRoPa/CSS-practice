@@ -1,0 +1,107 @@
+main {
+    padding: 32px 0;
+}
+
+.package a {
+    display: block;
+}
+
+.package {
+    background: #d5ffdc;
+    width: 80%;
+    margin: 32px 0;
+    border: 3px solid #0e4f1f;
+    border-left: none;
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.35);
+    border-radius: 0 16px 16px 0;
+}
+
+ /* note that this clearfix class is related to the lesson and will be solved with flexbox */
+.clearfix {
+    clear: both;
+}
+
+.package a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    padding: 32px;
+}
+
+.package:hover, .package:active {
+    background: #cf2e2e !important; 
+    cursor: pointer;
+}
+
+.package:hover .package__title, .package:active .package__title {
+    color: white !important;
+}
+
+.package:hover .package__summary, .package:active .package__summary {
+    color: black !important;
+}
+
+.package:hover .package__description, .package:active .package__description {
+    background: #9e2323;
+    color: white !important;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.package__title {
+    color: #0e4f1f;
+    margin: 16px 0 16px 16px;
+    padding: 8px 0 0 16px;
+}
+
+.package__summary {
+    color: #858585;
+    margin: 16px 0 16px 16px;
+    padding: 8px 0 0 16px;
+}
+
+.package__description {
+    padding: 16px;
+    margin: 32px 32px 16px 32px;
+    background: white;
+    color: black;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 0 8px 8px 0;
+}
+
+#plus {
+    background: #19b84c;
+}
+
+#plus .package__title {
+    color: #083013;
+}
+
+#plus .package__summary { 
+    color: white;
+}
+
+#plus .package__description {
+    color: #0e4f1f;
+}
+
+#plus:hover .package__title {
+    color: white;
+}
+
+#premium {
+    background: #93d99f;
+}
+
+#free {
+    float: right;
+    border: 3px solid #0e4f1f;
+    border-right: none;
+    border-radius: 16px 0 0 16px;
+}
+
+#free .package__description {
+    border-radius: 8px 0 0 8px;
+    text-align: right;
+}
