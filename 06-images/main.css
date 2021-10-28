@@ -1,0 +1,123 @@
+#product-overview {
+    position: relative;
+    background: url("freedom.jpg");
+    margin-top: 42px;
+    width: 100%;
+    height: 528px;
+    padding: 10px;
+}
+
+#product-overview h1 {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.section-title {
+    color: #2ddf5c;
+    text-align: center;
+}
+
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.plan {
+    background: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%; 
+    vertical-align: middle;
+    border-radius: 8px;
+}
+
+.plan--highlight {
+    background: #19b84c;
+    color: white;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.35);
+}
+
+.plan__recommended {
+    background: white;
+    color: #19b84c;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.35);
+    border-radius: 8px; 
+}
+
+.plan__title {
+    color: #0e4f1f;
+}
+
+.plan__price {
+    color: #858585;
+}
+
+.plan--highlight .plan__title {
+    color: white;
+}
+
+.plan--highlight .plan__price {
+    color: #0e4f1f;
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+Note the use of a class for each list item as __feature
+This could be accomplished with combinators easily and with less HTML
+A class is given to each <li> for clarity and to be consistent
+*/
+.plan__feature {
+    margin: 8px 0;
+}
+
+#key-features {
+    background: #ff1b68;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title {
+    color: white;
+    margin: 32px;
+}
+
+.key-features__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature__image {
+    background: #ffcdde;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.key-feature__description {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
