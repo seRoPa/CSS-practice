@@ -1,6 +1,6 @@
 #product-overview {
     position: relative;
-    background: url("freedom.jpg");
+    background: url("images/freedom.jpg") left 10% bottom 20%/cover border-box;
     margin-top: 42px;
     width: 100%;
     height: 528px;
